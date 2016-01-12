@@ -1,7 +1,7 @@
 require './koodi.rb'
 
-RSpec.describe 'metodi esiintymat' do
-  it "palauttaa hashin, missä esiintymäfrekvenssi" do
+RSpec.describe 'metodi avainten_summa' do
+  it "palauttaa parametrina olevan hadshin avainten summan" do
     method_exists(self, :avainten_summa, { 1=>1, 3=>1 })
     expect(avainten_summa({ 1=>1, 3=>1 })).to eq(4)
     expect(avainten_summa({1=>2, 2=>2, 6=>1, 3=>3, 8=>1, 9=>1, 4=>1})).to eq(33)
