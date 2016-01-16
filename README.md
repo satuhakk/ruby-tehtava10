@@ -1,4 +1,4 @@
-Tee metodi avainten_summa, joka saa parametriksi hashin, jonka kaikki avaimet ovat kokonaislukuja, ja palauttaa sen avaimien summan.
+Tee metodi `avainten_summa`, joka saa parametriksi hashin, jonka kaikki avaimet ovat kokonaislukuja, ja palauttaa sen avaimien summan.
 
 Etsi sopivia metodeja Hashin apikuvauksesta http://ruby-doc.org/core-2.3.0/Hash.html
 
